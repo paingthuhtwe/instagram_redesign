@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-main">
+        <div class="logo">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="fab fa-instagram fa-3x text-orange cursor"></i>
+            <span class="d-none d-lg-inline">Instagram</span>
+          </div>
+        </div>
+        <div class="search">
+          <div class="d-flex justify-content-space-between px-3">
+            <div class="searchInput">
+              <i class="fas fa-search text-gray cursor icon-hover"></i>
+              <input type="text" placeholder="Search" />
+              <i class="fas fa-microphone text-gray cursor icon-hover"></i>
+            </div>
+            <button>
+              <b><i class="fas fa-plus"></i>Create new Post</b>
+            </button>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="pe-2"><i class="far fa-paper-plane"></i></span>
+            <span class="pe-2"><i class="far fa-bell"></i></span>
+            <span><i class="fas fa-bars"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col left">
+        <span class="d-none d-lg-inline">
+          <div class="text-center pt-2">
+            <img
+              class="rounded-circle cursor"
+              src="imgs/nawphaw01.jpg"
+              alt=""
+            />
+            <h3>Naw Phaw</h3>
+            <span class="text-gray">Yangon, Myanmar</span>
+          </div>
+          <div class="text-center d-flex px-2 pt-2 pb-2 justify-content-center">
+            <div class="pe-1">
+              <div class="fw-bold">578</div>
+              <div class="text-uppercase fs-small text-gray">Posts</div>
+            </div>
+            <div class="">
+              <div class="fw-bold">32.2k</div>
+              <div class="text-uppercase fs-small text-gray">Followers</div>
+            </div>
+            <div class="ps-1">
+              <div class="fw-bold">989</div>
+              <div class="text-uppercase fs-small text-gray">Following</div>
+            </div>
+          </div>
+          <div class="px-1 pb-2">
+            <hr />
+          </div>
+        </span>
+        <div class="text-lg-start px-1">
+          <div class="p-1 text-orange bs-hover">
+            <i class="fas fa-home pe-1"></i
+            ><b class="d-none d-lg-inline">Home</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover">
+            <i class="fas fa-compass pe-1"></i
+            ><b class="d-none d-lg-inline">Explore</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover">
+            <i class="fas fa-bookmark pe-1"></i
+            ><b class="d-none d-lg-inline">My Favorites</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover">
+            <i class="fas fa-paper-plane pe-1"></i
+            ><b class="d-none d-lg-inline">Direct</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover">
+            <i class="fas fa-tv pe-1"></i
+            ><b class="d-none d-lg-inline">IG TV</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover">
+            <i class="fas fa-chart-simple pe-1"></i
+            ><b class="d-none d-lg-inline">Status</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover">
+            <i class="fas fa-cog pe-1"></i
+            ><b class="d-none d-lg-inline">Setting</b>
+          </div>
+          <div class="p-1 text-gray bs-hover icon-hover icon-hover">
+            <i class="fas fa-right-from-bracket pe-1"></i
+            ><b class="d-none d-lg-inline">Log out</b>
+          </div>
+        </div>
+      </div>
+      <div class="col center">
+        <div>
+          <div
+            class="px-3 py-2 d-flex justify-content-space-between align-items-center"
+          >
+            <h3>Stories</h3>
+            <h5 class="cursor icon-hover">
+              Watch all <i class="fas fa-caret-right"></i>
+            </h5>
+          </div>
+          <div class="px-3 d-flex position-relative">
+            <div class="position-absolute storyNext" id="iconNext">
+              <i
+                class="fas fa-angle-right fa-2x text-gray icon-hover cursor"
+              ></i>
+            </div>
+            <div class="position-absolute storyPrev" id="iconPrev">
+              <i
+                class="fas fa-angle-left fa-2x text-gray icon-hover cursor"
+              ></i>
+            </div>
+            <div id="iconTab1">
+              <div class="d-flex">
+                <span class="ps-1"
+                  ><div
+                    class="d-flex storyIcon rounded-circle justify-content-space-around align-items-center icon-hover"
+                  >
+                    <div>
+                      <i class="fas fa-plus fa-2x"></i>
+                    </div></div
+                ></span>
+                <span class="ps-1"
+                  ><img
+                    class="rounded-circle storyIcon"
+                    src="imgs/nawphaw01.jpg"
+                    alt=""
+                    title="Naw Phaw"
+                /></span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story01.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1"
+                  ><img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story02.jpeg"
+                    alt=""
+                /></span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story03.jpeg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1"
+                  ><img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story04.jpg"
+                    alt=""
+                    title="Po Po"
+                /></span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story05.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story06.jpeg"
+                    alt=""
+                    title="Wine Su"
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story07.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story08.jpg"
+                    alt=""
+                    title="May Thet Khaing"
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/yadanarmai.jpg"
+                    alt=""
+                  />
+                </span>
+              </div>
+            </div>
+            <!-- icon tab1 end -->
+            <div id="iconTab2">
+              <div class="d-flex">
+                <span class="ps-2"
+                  ><img
+                    class="rounded-circle storyIcon"
+                    src="imgs/nawphaw01.jpg"
+                    alt=""
+                    title="Naw Phaw"
+                /></span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story01.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1"
+                  ><img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story02.jpeg"
+                    alt=""
+                /></span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story03.jpeg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1"
+                  ><img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story04.jpg"
+                    alt=""
+                    title="Po Po"
+                /></span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story05.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story06.jpeg"
+                    alt=""
+                    title="Wine Su"
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story07.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story08.jpg"
+                    alt=""
+                    title="May Thet Khaing"
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/yadanarmai.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="ps-1">
+                  <img
+                    class="rounded-circle storyIcon"
+                    src="imgs/story09.jpg"
+                    alt=""
+                    title="May Thet Khaing"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end story  -->
+          <div
+            class="px-3 pt-2 d-flex justify-content-space-between align-items-center"
+          >
+            <h3>Feeds</h3>
+            <h5>
+              <span class="latestBtn">Latest</span>
+              <span class="popularBtn">Popular</span>
+            </h5>
+          </div>
+          <!-- start post section  -->
+          <div class="px-3 py-1">
+            <div class="bg-white p-1" id="postCard">
+              <div
+                class="d-flex justify-content-space-between align-items-center"
+              >
+                <span class="d-flex align-items-center cursor">
+                  <span class="pe-1"
+                    ><img class="id" src="imgs/story04.jpg" alt=""
+                  /></span>
+                  <span
+                    ><h4>Po Po</h4>
+                    <small>Yangon, Myanmar</small></span
+                  >
+                </span>
+                <span>
+                  <i class="fas fa-ellipsis" id="postMore"></i>
+                </span>
+              </div>
+              <!-- post header end  -->
+              <div class="pt-1">
+                <img class="postImg" src="imgs/popo_cover.png" alt="" />
+              </div>
+              <div class="pt-1 d-flex justify-content-space-between">
+                <div class="px-1 text-gray">
+                  <i class="far fa-heart pe-1 cursor icon-hover"></i
+                  ><b>28.5k Like</b>
+                </div>
+                <div class="px-1 text-gray">
+                  <i class="far fa-comment pe-1 cursor icon-hover"></i
+                  ><b>33 Comments</b>
+                </div>
+                <div class="px-1 text-gray">
+                  <i class="fas fa-share-nodes pe-1 cursor icon-hover"></i
+                  ><b>134 Share</b>
+                </div>
+                <div class="px-1 text-gray">
+                  <i class="far fa-bookmark pe-1 cursor icon-hover"></i
+                  ><b>16 Saved</b>
+                </div>
+              </div>
+              <!-- end reaction section  -->
+              <div
+                class="d-flex justify-content-space-between align-items-center pt-1"
+              >
+                <span class="cursor">
+                  <span class=""
+                    ><img class="id" src="imgs/nawphaw01.jpg" alt=""
+                  /></span>
+                </span>
+                <span id="comment" class="d-flex align-items-center">
+                  <input type="text" placeholder="Write your comment..." />
+                  <i
+                    class="fas fa-paperclip text-secondary pe-1 cursor icon-hover"
+                  ></i>
+                  <i
+                    class="far fa-face-smile text-secondary pe-1 cursor icon-hover"
+                  ></i>
+                  <i
+                    class="far fa-image text-secondary pe-05 cursor icon-hover"
+                  ></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- can delete post section start -->
+          <div class="px-3 py-1">
+            <div class="bg-white p-1" id="postCard">
+              <div
+                class="d-flex justify-content-space-between align-items-center"
+              >
+                <span class="d-flex align-items-center cursor">
+                  <span class="pe-1"
+                    ><img class="id" src="imgs/story04.jpg" alt=""
+                  /></span>
+                  <span
+                    ><h4>Po Po</h4>
+                    <small>Yangon, Myanmar</small></span
+                  >
+                </span>
+                <span>
+                  <i class="fas fa-ellipsis" id="postMore"></i>
+                </span>
+              </div>
+              <!-- post header end  -->
+              <div class="pt-1">
+                <img class="postImg" src="imgs/popo_cover.png" alt="" />
+              </div>
+              <div class="pt-1 d-flex justify-content-space-between">
+                <div class="px-1 text-gray">
+                  <i class="far fa-heart pe-1 cursor icon-hover"></i
+                  ><b>28.5k Like</b>
+                </div>
+                <div class="px-1 text-gray">
+                  <i class="far fa-comment pe-1 cursor icon-hover"></i
+                  ><b>33 Comments</b>
+                </div>
+                <div class="px-1 text-gray">
+                  <i class="fas fa-share-nodes pe-1 cursor icon-hover"></i
+                  ><b>134 Share</b>
+                </div>
+                <div class="px-1 text-gray">
+                  <i class="far fa-bookmark pe-1 cursor icon-hover"></i
+                  ><b>16 Saved</b>
+                </div>
+              </div>
+              <!-- end reaction section  -->
+              <div
+                class="d-flex justify-content-space-between align-items-center pt-1"
+              >
+                <span class="cursor">
+                  <span class=""
+                    ><img class="id" src="imgs/nawphaw01.jpg" alt=""
+                  /></span>
+                </span>
+                <span id="comment" class="d-flex align-items-center">
+                  <input type="text" placeholder="Write your comment..." />
+                  <i
+                    class="fas fa-paperclip text-secondary pe-1 cursor icon-hover"
+                  ></i>
+                  <i
+                    class="far fa-face-smile text-secondary pe-1 cursor icon-hover"
+                  ></i>
+                  <i
+                    class="far fa-image text-secondary pe-05 cursor icon-hover"
+                  ></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- can delete post section end -->
+        </div>
+      </div>
+      <!-- end post section  -->
+      <div class="col right px-2">
+        <h4 class="py-2 cursor">Trending Feeds</h4>
+        <div class="">
+          <div class="d-flex justify-content-center">
+            <img class="iconPhoto" src="imgs/story01.jpg" alt="" />
+            <img class="iconPhoto" src="imgs/story02.jpeg" alt="" />
+          </div>
+          <div class="d-flex justify-content-center">
+            <img class="iconPhoto" src="imgs/story03.jpeg" alt="" />
+            <img class="iconPhoto" src="imgs/story04.jpg" alt="" />
+          </div>
+        </div>
+        <h4 class="py-2 cursor">Suggestions for you</h4>
+        <span class="d-flex align-items-center cursor px-1 py-05 user">
+          <span class="pe-1"
+            ><img class="leftId" src="imgs/story04.jpg" alt=""
+          /></span>
+          <span
+            ><h4>Po Po</h4>
+            <small>Yangon, Myanmar</small></span
+          >
+        </span>
+        <span class="d-flex align-items-center cursor px-1 py-05 user">
+          <span class="pe-1"
+            ><img class="leftId" src="imgs/story06.jpeg" alt=""
+          /></span>
+          <span
+            ><h4>Wine Su</h4>
+            <small>Magwe, Myanmar</small></span
+          >
+        </span>
+        <span class="d-flex align-items-center cursor px-1 py-05 user">
+          <span class="pe-1"
+            ><img class="leftId" src="imgs/yadanarmai.jpg" alt=""
+          /></span>
+          <span
+            ><h4>Yadanar Mai</h4>
+            <small>Magwe, Myanmar</small></span
+          >
+        </span>
+        <span class="d-flex align-items-center cursor px-1 py-05 user">
+          <span class="pe-1"
+            ><img class="leftId" src="imgs/ayethaung01.jpg" alt=""
+          /></span>
+          <span
+            ><h4>Aye Thaung</h4>
+            <small>Yangon, Myanmar</small></span
+          >
+        </span>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
