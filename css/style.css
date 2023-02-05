@@ -5,7 +5,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .col {
-  height: 700px;
+  height: 800px;
 }
 ::-webkit-scrollbar {
   width: 0;
@@ -225,4 +225,15 @@
 .user:hover {
   background-color: #ddd;
   border-radius: 10px;
+}
+#profileActivity {
+  background-color: #ddd;
+  border-radius: 7.5px;
+}
+#profileActivity .leftId {
+  border: 0.5px solid #ff4e4e;
+}
+#profileActivity .leftId:hover {
+  opacity: 90%;
+  border: 2px solid #ff4e4e;
 }
