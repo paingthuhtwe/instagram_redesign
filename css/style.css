@@ -66,6 +66,7 @@
   background-color: #ff4e4e;
   color: white;
   cursor: pointer;
+  animation: bounce 0.5s;
 }
 .searchInput {
   border: 1px solid #ddd;
@@ -89,6 +90,7 @@
   background-color: #ff4e4e;
   color: white;
   cursor: pointer;
+  animation: bounce 0.5s;
 }
 .search button i {
   padding-right: 10px;
@@ -102,6 +104,7 @@
 .left img {
   width: 25%;
   border: 3px solid #ff4e4e;
+  transition: 0.5s;
 }
 
 .bs-hover:hover {
@@ -125,6 +128,7 @@
   height: 75px;
   border: 3px solid #ff4e4e;
   cursor: pointer;
+  transition: 0.5s;
 }
 .storyIcon:hover {
   box-shadow: 0px 0px 30px -15px #ff4e4e;
@@ -238,8 +242,18 @@
 }
 #profileActivity .leftId {
   border: 0.5px solid #ff4e4e;
+  transition: 0.25s;
 }
 #profileActivity .leftId:hover {
-  opacity: 90%;
-  border: 2px solid #ff4e4e;
+  opacity: 99%;
+  transform: scale(1.2);
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
