@@ -74,6 +74,7 @@
   border-radius: 25px;
 }
 .searchInput input {
+  outline: none;
   border: none;
   background-color: #f8fafc;
   padding: 5px 10px;
@@ -186,11 +187,12 @@
   background-color: #f8fafc;
 }
 #comment input {
+  outline: none;
   border: none;
   background-color: #f8fafc;
   padding: 5px 10px;
   /* width: 870px; */
-  width: 530px;
+  width: 500px;
 }
 
 /* story toggle start  */
